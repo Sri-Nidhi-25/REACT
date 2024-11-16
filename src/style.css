@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* to keep the footer at foot */
+}
+
+.logo-img{
+    width: 60px;
+}
+
+.main{
+    flex:1; /* to keep the footer at the foot*/
+}
+
+.nav-items{
+    /* list-style: none; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 0px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 10px 0px rgba(147, 144, 144, 0.44);
+    -webkit-box-shadow: 1px 1px 10px 0px rgba(147, 144, 144, 0.44);
+}
+
+.nav-items > div {
+    margin: 1px;
+    padding: 1px 20px 1px 15px ;
+    font-size: 20px;
+}
+
+.foot{
+    background-color: rgba(0, 0, 0, 0.537);
+    color: azure;
+    margin-top: 20px;
+    text-align: center;
+}
