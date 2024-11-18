@@ -1,10 +1,12 @@
 import "./App.css";
-import Temp from "./Basics.js";
+import FirstProject from "./componenets/FirstProject";
+// import Temp from './Basics'
 
 function App() {
   return (
     <div>
-      <Temp />
+      <FirstProject />
+      {/* <Temp/> */}
     </div>
   );
 }

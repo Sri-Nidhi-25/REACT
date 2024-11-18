@@ -1,3 +1,24 @@
+body{
+    background-color:#272e34;
+    background-image : url(../public/logo512.png);
+    background-repeat: no-repeat;
+    background-position-x: 120%;
+    background-position-y: -90%;
+    background-blend-mode:overlay;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contain > h1{
+    padding-left: 10px;
+    color:#61DBFB;
+}
+.nav-text{
+    color: aliceblue;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -5,7 +26,8 @@
 }
 
 .logo-img{
-    width: 60px;
+    padding-left: 15px;
+    width: 40px;
 }
 
 .main{
@@ -25,11 +47,13 @@
     align-items: center;
     box-shadow: 1px 1px 10px 0px rgba(147, 144, 144, 0.44);
     -webkit-box-shadow: 1px 1px 10px 0px rgba(147, 144, 144, 0.44);
+    padding-right: 20px;
+    background-color: #21222a;
 }
 
 .nav-items > div {
     margin: 1px;
-    padding: 1px 20px 1px 15px ;
+    padding: 1px 4px 1px 15px ;
     font-size: 20px;
 }
 
@@ -39,3 +63,16 @@
     margin-top: 20px;
     text-align: center;
 }
+.body-P1 >h1 {
+    padding: 20px 0px 10px 33px;
+    color: aliceblue;
+}
+.body-P1 >ul{
+    padding-left: 5%;
+    color: aliceblue;
+}
+.body-P1 >ul >li{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.body-P1 >ul>li::marker{color:#61DBFB;}

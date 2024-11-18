@@ -1,5 +1,8 @@
 import React from "react";
 import "./style.css";
+import Header from "./componenets/basics folder/Header";
+import Footer from "./componenets/basics folder/Footer";
+import MainContent from "./componenets/basics folder/MainContent";
 
 // function Navbar() {
 //   return (
@@ -50,46 +53,6 @@ Render your list to the page
 //     </div>
 //   );
 // }
-
-function Header() {
-  return (
-    <header>
-      <nav className="flex-container">
-        <img src="./logo192.png" alt="react" className="logo-img" />
-        <div>
-          <ul className="nav-items">
-            <div>Pricing</div>
-            <div>About</div>
-            <div>Contact</div>
-          </ul>
-        </div>
-      </nav>
-    </header>
-  );
-}
-function Footer() {
-  const CurrentYear = new Date().getFullYear();
-  return (
-    <footer className="foot">
-      {" "}
-      © {CurrentYear} My app development. All rights reserved.{" "}
-    </footer>
-  );
-}
-
-function MainContent() {
-  return (
-    <div className="main">
-      <h1>Reasons I'm excited to learn React</h1>
-      <ol>
-        <li>
-          It's a popular library, so I'll be able to fit in with the cool kids!
-        </li>
-        <li>I'm more likely to get a job as a developer if I know React</li>
-      </ol>
-    </div>
-  );
-}
 
 function Temp() {
   return (
